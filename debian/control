@@ -1,0 +1,38 @@
+Source: stsbl-iserv-proxytools
+Section: misc
+Priority: extra
+Maintainer: Stadtteilschule Blankenese <repository@stsbl.de>
+Build-Depends: debhelper (>=9)
+Standards-Version: 3.9.6
+Homepage: https://repository.stsbl.de/doc/mods/stsbl-iserv-proxyconfig.html
+
+Package: stsbl-iserv-proxyconfig
+Architecture: all
+Depends: iserv-portal
+Conflicts: iserv-proxytools (<= 16.06.10-0), iserv-proxytools-firefox (<= 16.06.09-0)
+Breaks: iserv-proxytools (<= 16.06.10-0), iserv-proxytools-firefox (<= 16.06.09-0)
+Description: Proxykonfiguration für IServ
+ Dieses Modul eröffnet zusätzliche Eingriffsmöglichkeiten in die Proxykonfiguration für das Schulnetzwerk.
+ .
+ Es können feste Proxyeinstellungen an die Arbeitsplatzrechner verteilt werden, die von den Benutzern nicht geändert werden können.
+ Zudem kann für den IServ Proxy ein Elternproxy eingestellt werden, wodurch sich ein Time-for-kids Schulrouter mit intgegrierten
+ Schulfilter beispielsweise problemlos in die IServ-Umgebung einfügen lässt. Außerdem enthält das Modul einen DMZ-Modus, der es
+ erlaubt, den IServ-Proxy an Hamburger Schulen zu verwenden.
+Tag: role::plugin, suite::iserv:portal
+
+Package: iserv-proxytools
+Architecture: all
+Depends: iserv-portal, stsbl-iserv-proxyconfig
+Description: iserv-proxytools (Transitional Package)
+ Dieses Paket hängt vom Nachfolger von iserv-proxytools ab. Dieser wird bei der Installation dieses Paketes automatisch installiert.
+ .
+ Anschließend wird dieses Paket automatisch entfernt.
+
+Package: iserv-proxytools-firefox
+Architecture: all
+Depends: iserv-portal, stsbl-iserv-proxyconfig
+Description: iserv-proxytools-firefox (Transitional Package)
+ Dieses Paket hängt vom Nachfolger von iserv-proxytools-firefox ab. Dieser wird bei der Installation dieses Paketes automatisch installiert.
+ .
+ Anschließend wird dieses Paket automatisch entfernt.
+

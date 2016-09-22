@@ -1,0 +1,15 @@
+// Safe Browsing on Goole by default
+defaultPref("browser.safebrowsing.enabled", true);
+defaultPref("browser.safebrowsing.malware.enabled", true);
+
+// No Mozilla ads
+defaultPref("browser.rights.3.shown", true);
+
+// Don't disable add-ons on startup
+defaultPref("extensions.autoDisableScopes", 0);
+
+// Don't ask the user if he wants to submit usage data
+defaultPref("toolkit.telemetry.prompted", 2);
+defaultPref("toolkit.telemetry.rejected", true);
+defaultPref("toolkit.telemetry.enabled", false);
+

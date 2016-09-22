@@ -1,0 +1,3 @@
+#!/usr/bin/perl -p -CSDAL
+s/\r?\n/\r\n/;  # unix -> dos returns
+

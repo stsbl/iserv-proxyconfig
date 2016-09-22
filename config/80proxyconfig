@@ -1,0 +1,39 @@
+DeployProxy:
+name             Deploy proxy server on Windows Clients
+description      The proxy server will set with a registry patch on each Windows Login.\nFurthermore the Connection Tab in the Internet Options of Windows will be hidden with a entry in the IServ Windows Registry Patch.\nThe Firefox Package in the Software Deployment will configured to use the System Settings of Windows. 
+group            Module: Proxy Configuration
+type             bool
+default          false
+
+DeployProxyUse:
+name             Proxy server to deploy
+description      The proxy server which will deployed to the Windows Clients.\nempty: Use configuration of IServ (Proxy in iservcfg)\ndirect: Configure Windows to use a direct internet connection\nauto: Try to configure Windows to use WPAD/PAC\nscript: Use the PAC script of IServ\nother: Proxy server in format hostname:port 
+group            Module: Proxy Configuration
+type             string
+default          auto
+
+ProxyDMZMode:
+name             Enable DMZ mode (Hamburg)
+description      The Firewall of the IServ will configured to allow access to the proxy from another subnets.\nEnable this to allow the access to the Proxy if the IServ is homed in a DMZ of a Time for kids-Schulrouter.
+group            Module: Proxy Configuration
+type             bool
+default          false
+
+ProxyCacheMgr:
+name             Squid Webmaster
+description      E-Mail Address which is shown as Cache Administrator on Squid error pages
+group            Module: Proxy Configuration
+type             string
+default          webmaster
+
+ProxyCachePeer:
+name             Cache Peer
+description      Proxy server to which all requests are redirected by the IServ Proxy.\nProxy server in format hostname:port
+group            Module: Proxy Configuration
+type             string
+
+TrustedChildProxies:
+name             Trusted Child Proxies
+description      Child Proxies where the field 'X-Forwarded-For' is trusted. It will used to detect the origin of a request.
+group            Module: Proxy Configuration
+type             array

@@ -1,0 +1,7 @@
+// Configuration file for deploying Firefox properties
+//
+// This file is generated automatically by iservchk.
+// It is not recommended to make any changes to this file.
+// If really necessary you can save changes permanently using:
+//   iconf save /srv/deploy/install/mozilla-firefox/add/mozilla.cfg
+

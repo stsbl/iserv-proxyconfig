@@ -1,0 +1,47 @@
+stsbl-iserv-proxyconfig (16.09.22-0) experimental; urgency=medium
+
+  [ Felix Jacobi ]
+  * Renamed package iserv-proxytools => stsbl-
+    iserv-proxyconfig.
+  * Merged iserv-proxytools-firefox into that 
+    package.
+  * Added dynamic enabling of Firefox support.
+  * Added option to manage trusted child proxies.
+
+  iserv: Das Modul kann nun vertrauenswürdige Kinderproxys konfigurieren. 
+
+ -- Stadtteilschule Blankenese <repository@stsbl.de>  Thu, 22 Sep 2016 22:12:24 +0200
+
+iserv-proxytools (16.06.10-0) experimental; urgency=medium
+
+  [ Felix Jacobi ]
+  - bugfixes
+   * Allow CONNECT-Requests to the cache peer. 
+
+ -- Stadtteilschule Blankenese <repository@stsbl.de>  Fri, 10 Jun 2016 01:53:33 +0200
+
+iserv-proxytools (16.06.09-0) experimental; urgency=low
+
+  [ Felix Jacobi ]
+  - enhancements
+   * Added default value for DeployProxyUse in iservcfg. 
+
+ -- Stadtteilschule Blankenese <repository@stsbl.de>  Thu, 09 Jun 2016 01:59:36 +0200
+
+iserv-proxytools (16.03.20-0) experimental; urgency=low
+
+  * MAC Address Check will now disabled in DMZ Mode.
+
+ -- Stadtteilschule Blankenese <repository@stsbl.de>  Sun, 20 Mar 2016 22:26:03 +0100
+
+iserv-proxytools (16.03.18-1) experimental; urgency=low
+
+  * Fixed translations.
+
+ -- Stadtteilschule Blankenese <repository@stsbl.de>  Fri, 18 Mar 2016 03:08:31 +0100
+
+iserv-proxytools (16.03.18-0) experimental; urgency=low
+
+  * Initial release.
+
+ -- Stadtteilschule Blankenese <repository@stsbl.de>  Fri, 18 Mar 2016 00:24:02 +0100

@@ -1,0 +1,3 @@
+// Don't show the "Firefox has been upgraded" page
+defaultPref("browser.startup.homepage_override.mstone", "ignore");
+

@@ -1,0 +1,5 @@
+// Disable automatic updates
+defaultPref("app.update.enabled", false);
+defaultPref("extensions.update.enabled", false);
+defaultPref("browser.search.update", false);
+

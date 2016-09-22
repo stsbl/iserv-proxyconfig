@@ -1,0 +1,38 @@
+msgid "Module: Proxy Configuration"
+msgstr "Modul: Proxykonfiguration"
+
+msgid "Deploy proxy server on Windows Clients"
+msgstr "Proxyserver auf Windows-Clients einrichten"
+
+msgid "The proxy server will set with a registry patch on each Windows Login.\\nFurthermore the Connection Tab in the Internet Options of Windows will be hidden with a entry in the IServ Windows Registry Patch.\\nThe Firefox Package in the Software Deployment will configured to use the System Settings of Windows."
+msgstr "Der Proxyserver wird mit einem Registrypatch bei jeden Windows-Login eingerichtet.\\nDesweiteren wird der Tab Verbindungen in den Internetoptionen von Windows mittels eines Eintrags im IServ Registry-Patch ausgeblendet.\\nDas Firefox-Paket der Softwareverteilung wird so konfiguriert, das Firefox die Windows-Systemeinstellungen für den Proxy übernimmt."
+
+msgid "Proxy server to deploy"
+msgstr "Zu verteilender Proxyserver"
+
+msgid "The proxy server which will deployed to the Windows Clients.\\nempty: Use configuration of IServ (Proxy in iservcfg)\\ndirect: Configure Windows to use a direct internet connection\\nauto: Try to configure Windows to use WPAD/PAC\\nscript: Use the PAC script of IServ\\nother: Proxy server in format hostname:port"
+msgstr "Der Proxyserver, der auf den Windows-Clients eingerichtet wird.\\nleer: Konfiguration von IServ nutzen (Proxy in iservcfg)\\ndirect: Windows so konfigurieren, dass eine direkte Internetverbindung verwendet wird.\\nauto: Windows so konfigurieren, dass PAC/WPAD verwendet wird.\\nscript: Das PAC-Skript von IServ für die Konfiguration verwenden.\\nanderer Wert: Proxyserver im Format hostname:port"
+
+msgid "Enable DMZ mode (Hamburg)"
+msgstr "DMZ-Modus aktivieren (Hamburg)"
+
+msgid "The Firewall of the IServ will configured to allow access to the proxy from another subnets.\\nEnable this to allow the access to the Proxy if the IServ is homed in a DMZ of a Time for kids-Schulrouter."
+msgstr "Die Firewall von IServ wird so konfiguriert, dass sie den Zugriff auf den Proxy aus anderen Subnetzen erlaubt.\\nDiese Option aktivieren, wenn der Zugriff auf den Proxy eines IServs in einer DMZ des Time for kids-Schulrouters aus dem LAN heraus möglich sein soll."
+
+msgid "Squid Webmaster"
+msgstr "Squid-Webmaster"
+
+msgid "E-Mail Address which is shown as Cache Administrator on Squid error pages"
+msgstr "E-Mail-Adresse, die als Cache Administrator auf Squid-Fehlerseiten angezeigt wird."
+
+msgid "Cache Peer"
+msgstr "Eltern-Proxy"
+
+msgid "Proxy server to which all requests are redirected by the IServ Proxy.\\nProxy server in format hostname:port"
+msgstr "Proxyserver, an den alle Anfragen an den IServ-Proxy weitergeleitet werden.\\nProxyserver im Format hostname:port"
+
+msgid "Trusted Child Proxies"
+msgstr "Vertrauenswürdige Kinderproxys"
+
+msgid "Child Proxies where the field 'X-Forwarded-For' is trusted. It will used to detect the origin of a request."
+msgstr "Kinderproxys, wo das Feld 'X-Forwarded-For' vertrauenswürdig ist. Es wird genutzt um die Herkunft einer Anfrage zu bestimmen.'"

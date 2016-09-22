@@ -1,0 +1,6 @@
+debian/stsbl-iserv-proxyconfig
+debian/stsbl-iserv-proxyconfig.debhelper.log
+debian/iserv-proxytools
+debian/iserv-proxytools.debhelper.log
+debian/iserv-proxytools-firefox
+debian/iserv-proxytools-firefox.debhelper.log
