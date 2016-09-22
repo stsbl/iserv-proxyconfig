@@ -3,12 +3,12 @@ stsbl-iserv-proxyconfig (16.09.22-0) experimental; urgency=medium
   [ Felix Jacobi ]
   * Renamed package iserv-proxytools => stsbl-
     iserv-proxyconfig.
-  * Merged iserv-proxytools-firefox into that 
+  * Merged iserv-proxytools-firefox into that
     package.
   * Added dynamic enabling of Firefox support.
   * Added option to manage trusted child proxies.
 
-  iserv: Das Modul kann nun vertrauenswürdige Kinderproxys konfigurieren. 
+  iserv: Das Modul kann nun vertrauenswürdige Kinderproxys konfigurieren.
 
  -- Stadtteilschule Blankenese <repository@stsbl.de>  Thu, 22 Sep 2016 22:12:24 +0200
 
