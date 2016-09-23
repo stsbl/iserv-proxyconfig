@@ -11,7 +11,7 @@ Architecture: all
 Depends: iserv-portal
 Conflicts: iserv-proxytools (<= 16.06.10-0), iserv-proxytools-firefox (<= 16.06.09-0)
 Breaks: iserv-proxytools (<= 16.06.10-0), iserv-proxytools-firefox (<= 16.06.09-0)
-Description: Proxykonfiguration für IServ
+Description: Proxykonfigurations-Modul für IServ
  Dieses Modul eröffnet zusätzliche Eingriffsmöglichkeiten in die Proxykonfiguration für das Schulnetzwerk.
  .
  Es können feste Proxyeinstellungen an die Arbeitsplatzrechner verteilt werden, die von den Benutzern nicht geändert werden können.
