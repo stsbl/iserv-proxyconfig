@@ -37,3 +37,4 @@ name             Trusted Child Proxies
 description      Child Proxies where the field 'X-Forwarded-For' is trusted. It will used to detect the origin of a request.
 group            Module: Proxy Configuration
 type             array
+default          ()
