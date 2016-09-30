@@ -1,6 +1,13 @@
+stsbl-iserv-proxyconfig (16.09.30-0) experimental; urgency=high
+
+  [ Felix Jacobi ]
+  * Moved iservchk scripts to correct location.
+
+ -- Stadtteilschule Blankenese <repository@stsbl.de>  Fri, 30 Sep 2016 18:55:35 +0200
+
 stsbl-iserv-proxyconfig (16.09.24-0) experimental; urgency=high
 
-  [Felix Jacobi]
+  [ Felix Jacobi ]
   * Fixed broken array to prevent newconf fail.
   * Added tags to dummy packages.
   * Moved legacy scripts to dummy packages.
