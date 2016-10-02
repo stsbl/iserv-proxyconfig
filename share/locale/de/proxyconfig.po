@@ -4,14 +4,14 @@ msgstr "Modul: Proxykonfiguration"
 msgid "Deploy proxy server on Windows Clients"
 msgstr "Proxyserver auf Windows-Clients einrichten"
 
-msgid "The proxy server will set with a registry patch on each Windows Login.\\nFurthermore the Connection Tab in the Internet Options of Windows will be hidden with a entry in the IServ Windows Registry Patch.\\nThe Firefox Package in the Software Deployment will configured to use the System Settings of Windows."
-msgstr "Der Proxyserver wird mit einem Registrypatch bei jeden Windows-Login eingerichtet.\\nDesweiteren wird der Tab Verbindungen in den Internetoptionen von Windows mittels eines Eintrags im IServ Registry-Patch ausgeblendet.\\nDas Firefox-Paket der Softwareverteilung wird so konfiguriert, das Firefox die Windows-Systemeinstellungen für den Proxy übernimmt."
+msgid "The proxy server will set with a registry patch on each Windows Login.\\nFurthermore the Connection Tab in the Internet Options of Windows will be hidden with a entry in the IServ Windows Registry Patch. The Firefox Package in the Software Deployment will configured to use the proxy server which is configured in iservcfg."
+msgstr "Der Proxyserver wird mit einem Registrypatch bei jeden Windows-Login eingerichtet.\\nDesweiteren wird der Tab Verbindungen in den Internetoptionen von Windows mittels eines Eintrags im IServ Registry-Patch ausgeblendet. Das Firefox-Paket der Softwareverteilung wird so konfiguriert, dass der Proxyserver verwendet wird, der in iservcfg eingestellt ist."
 
 msgid "Proxy server to deploy"
 msgstr "Zu verteilender Proxyserver"
 
-msgid "The proxy server which will deployed to the Windows Clients.\\nempty: Use configuration of IServ (Proxy in iservcfg)\\ndirect: Configure Windows to use a direct internet connection\\nauto: Try to configure Windows to use WPAD/PAC\\nscript: Use the PAC script of IServ\\nother: Proxy server in format hostname:port"
-msgstr "Der Proxyserver, der auf den Windows-Clients eingerichtet wird.\\nleer: Konfiguration von IServ nutzen (Proxy in iservcfg)\\ndirect: Windows so konfigurieren, dass eine direkte Internetverbindung verwendet wird.\\nauto: Windows so konfigurieren, dass PAC/WPAD verwendet wird.\\nscript: Das PAC-Skript von IServ für die Konfiguration verwenden.\\nanderer Wert: Proxyserver im Format hostname:port"
+msgid "The proxy server which will deployed to the Windows Clients.\\nempty: Use configuration of IServ (Proxy in iservcfg). direct: Configure Windows to use a direct internet connection. auto: Try to configure Windows to use WPAD/PAC. script: Use the PAC script of IServ. other: Proxy server in format hostname:port."
+msgstr "Der Proxyserver, der auf den Windows-Clients eingerichtet wird.\\nleer: Konfiguration von IServ nutzen (Proxy in iservcfg). direct: Windows so konfigurieren, dass eine direkte Internetverbindung verwendet wird. auto: Windows so konfigurieren, dass PAC/WPAD verwendet wird. script: Das PAC-Skript von IServ für die Konfiguration verwenden. Anderer Wert: Proxyserver im Format hostname:port"
 
 msgid "Enable DMZ mode (Hamburg)"
 msgstr "DMZ-Modus aktivieren (Hamburg)"

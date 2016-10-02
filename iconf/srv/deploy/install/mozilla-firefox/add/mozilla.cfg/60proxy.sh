@@ -37,7 +37,7 @@ then
     echo 'lockPref("network.proxy.share_proxy_settings", true);'
     echo 'lockPref("network.proxy.http", "'$FxProxy'");'
     echo 'lockPref("network.proxy.http_port", '$FxPort');'
-    echo 'lockPref("network.proxy.no_proxies_on", "localhost, 127.0.0.1'$LANIPs'");'
+    echo 'lockPref("network.proxy.no_proxies_on", "localhost, 127.0.0.1, '$LANIPs'");'
   elif [ "$DeployProxyUse" = "script" ]
   then
     echo '// Proxy: Use PAC script of IServ'
@@ -57,7 +57,7 @@ then
     echo 'lockPref("network.proxy.share_proxy_settings", true);'
     echo 'lockPref("network.proxy.http", "'$FxProxy'");'
     echo 'lockPref("network.proxy.http_port", '$FxPort');'
-    echo 'lockPref("network.proxy.no_proxies_on", "localhost, 127.0.0.1'$LANIPs'");'
+    echo 'lockPref("network.proxy.no_proxies_on", "localhost, 127.0.0.1, '$LANIPs'");'
   fi
 else
   echo '// Proxy: Autoconfig'

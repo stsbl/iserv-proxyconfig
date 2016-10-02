@@ -1,3 +1,13 @@
+stsbl-iserv-proxyconfig (16.10.03-0) experimental; urgency=low
+
+  [ Felix Jacobi ]
+  * Updated descriptions in iservchk to make sure that there
+    is only one newline break.
+  * Updated translations.
+  * Updated templates for mozilla.cfg. 
+
+ -- Stadtteilschule Blankenese <repository@stsbl.de>  Mon, 03 Oct 2016 00:53:41 +0200
+
 stsbl-iserv-proxyconfig (16.09.30-0) experimental; urgency=high
 
   [ Felix Jacobi ]

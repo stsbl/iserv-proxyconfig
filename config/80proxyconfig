@@ -1,13 +1,13 @@
 DeployProxy:
 name             Deploy proxy server on Windows Clients
-description      The proxy server will set with a registry patch on each Windows Login.\nFurthermore the Connection Tab in the Internet Options of Windows will be hidden with a entry in the IServ Windows Registry Patch.\nThe Firefox Package in the Software Deployment will configured to use the System Settings of Windows. 
+description      The proxy server will set with a registry patch on each Windows Login.\nFurthermore the Connection Tab in the Internet Options of Windows will be hidden with a entry in the IServ Windows Registry Patch. The Firefox Package in the Software Deployment will configured to use the proxy server which is configured in iservcfg. 
 group            Module: Proxy Configuration
 type             bool
 default          false
 
 DeployProxyUse:
 name             Proxy server to deploy
-description      The proxy server which will deployed to the Windows Clients.\nempty: Use configuration of IServ (Proxy in iservcfg)\ndirect: Configure Windows to use a direct internet connection\nauto: Try to configure Windows to use WPAD/PAC\nscript: Use the PAC script of IServ\nother: Proxy server in format hostname:port 
+description      The proxy server which will deployed to the Windows Clients.\nempty: Use configuration of IServ (Proxy in iservcfg). direct: Configure Windows to use a direct internet connection. auto: Try to configure Windows to use WPAD/PAC. script: Use the PAC script of IServ. other: Proxy server in format hostname:port. 
 group            Module: Proxy Configuration
 type             string
 default          auto
