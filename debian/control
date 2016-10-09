@@ -9,6 +9,7 @@ Homepage: https://repository.stsbl.de/doc/mods/stsbl-iserv-proxyconfig.html
 Package: stsbl-iserv-proxyconfig
 Architecture: all
 Depends: iserv-portal
+Provides: iserv-proxytools-firefox, iserv-proxytools
 Conflicts: iserv-proxytools (<= 16.06.10-0), iserv-proxytools-firefox (<= 16.06.09-0)
 Breaks: iserv-proxytools (<= 16.06.10-0), iserv-proxytools-firefox (<= 16.06.09-0)
 Description: Proxykonfigurations-Modul für IServ
