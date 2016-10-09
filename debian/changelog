@@ -1,3 +1,14 @@
+stsbl-iserv-proxyconfig (16.10.09-0) experimental; urgency=low
+
+  [ Felix Jacobi ]
+  - enhancements
+  * Changed source format from native to quilt.
+  * Added Provides field.
+
+  [ Felix Jacobi ]
+
+ -- Stadtteilschule Blankenese <repository@stsbl.de>  Sun, 09 Oct 2016 15:19:14 +0200
+
 stsbl-iserv-proxyconfig (16.10.03-0) experimental; urgency=low
 
   [ Felix Jacobi ]
