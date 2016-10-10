@@ -1,6 +1,6 @@
 #!/bin/sh
 
-if [[ $(dpkg-query --showformat='${Status}\n' --show "winst-mozilla-firefox" | grep "install ok installed") ]]
+if [[ $(dpkg-query --showformat='${Status}\n' --show "winst-mozilla-firefox" 2> /dev/null | grep "install ok installed") ]]
 then  
   echo 'Check "/srv/deploy/install/mozilla-firefox/add/mozilla.cfg"'
   echo
