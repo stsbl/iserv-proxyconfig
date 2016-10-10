@@ -1,3 +1,12 @@
+stsbl-iserv-proxyconfig (16.10.10-0) experimental; urgency=low
+
+  [ Felix Jacobi ]
+  * Disabled message "dpkg-query: Kein Paket gefunden, das auf winst-mozilla-firefox passt" during run of iservchk when winst-mozilla-firefox ist not installed.
+
+  [ Felix Jacobi ]
+
+ -- Stadtteilschule Blankenese <repository@stsbl.de>  Mon, 10 Oct 2016 15:03:29 +0200
+
 stsbl-iserv-proxyconfig (16.10.09-0) experimental; urgency=low
 
   [ Felix Jacobi ]
