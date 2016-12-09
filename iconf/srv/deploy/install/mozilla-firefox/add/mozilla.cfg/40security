@@ -8,8 +8,13 @@ defaultPref("browser.rights.3.shown", true);
 // Don't disable add-ons on startup
 defaultPref("extensions.autoDisableScopes", 0);
 
+// Disable addon meta data update
+pref("extensions.getAddons.cache.enabled", false);
+
 // Don't ask the user if he wants to submit usage data
 defaultPref("toolkit.telemetry.prompted", 2);
 defaultPref("toolkit.telemetry.rejected", true);
 defaultPref("toolkit.telemetry.enabled", false);
+defaultPref("toolkit.telemetry.archive.enabled", false);
+defaultPref("toolkit.telemetry.unified", false);
 

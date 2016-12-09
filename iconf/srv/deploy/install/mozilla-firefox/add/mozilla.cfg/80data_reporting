@@ -1,0 +1,20 @@
+// Heartbeat User rating disable
+pref("browser.selfsupport.url", "");
+
+// Disable speculative fetching of websites
+pref("network.http.speculative-parallel-limit", 0);
+
+// Disable Sessionstore
+pref("browser.sessionstore.enabled", false);
+pref("browser.sessionstore.max_tabs_undo", 0);
+pref("browser.sessionstore.max_windows_undo", 0);
+pref("browser.sessionstore.interval", 300000);
+
+// Disable datareporting
+pref("datareporting.healthreport.service.enabled", false);
+pref("datareporting.healthreport.uploadEnabled", false);
+pref("datareporting.policy.dataSubmissionEnabled", false);
+
+//Manage the Hard Drive Cache
+//pref("browser.cache.disk.enable", false);
+
