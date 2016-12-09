@@ -1,3 +1,14 @@
+stsbl-iserv-proxyconfig (16.12.09-0) experimental; urgency=medium
+
+  [ Felix Jacobi ]
+  * Updated firefox config.
+
+  [ Stadtteilschule Blankenese ]
+
+  iserv: Die Firefox-Konfigurationsdatei entspricht nun wieder der, die vom Softwareverteilungspaket mitgelifiert wird, um sie zu verteilen, installiert Firefox sich auf allen betroffenen Rechnern neu.
+
+ -- Stadtteilschule Blankenese <repository@stsbl.de>  Fri, 09 Dec 2016 19:10:33 +0100
+
 stsbl-iserv-proxyconfig (16.10.10-0) experimental; urgency=low
 
   [ Felix Jacobi ]
