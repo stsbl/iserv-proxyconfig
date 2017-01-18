@@ -1,4 +1,0 @@
-Test 'Mark iserv-deploy as manual installed' '[ ! $(apt-mark showauto | grep -E "iserv-deploy$") ]' 'apt-mark manual iserv-deploy'
-Test 'Mark winst-mozilla-firefox as manual installed' '[ ! $(apt-mark showauto | grep -E "winst-mozilla-firefox$") ]' 'apt-mark manual winst-mozilla-firefox'
-
-Test 'Uninstall transitional package iserv-proxytools-firefox' "[[ ! $(dpkg-query --showformat='${Status}\n' --show 'iserv-proxytools-firefox' | grep 'install ok installed') ]]" 'aptitude purge --assume-yes iserv-proxytools-firefox'

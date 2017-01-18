@@ -19,25 +19,3 @@ Description: Proxykonfigurations-Modul für IServ
  .
  Außerdem enthält das Modul einen DMZ-Modus, der es erlaubt, den IServ-Proxy in Kombination mit dem Time-for-kids-Schulrouter an Hamburger Schulen zu verwenden.
 Tag: role::plugin, suite::iserv:portal
-
-Package: iserv-proxytools
-Architecture: all
-Depends: iserv-portal, stsbl-iserv-proxyconfig
-Conflicts: stsbl-iserv-proxyconfig (<= 16.09.23.0)
-Breaks: stsbl-iserv-proxyconfig (<= 16.09.23.0)
-Description: IServ Erweiterte Proxykonfiguration (Transitional Package)
- Dieses Paket hängt vom Nachfolger von iserv-proxytools ab. Dieser wird bei der Installation dieses Paketes automatisch installiert.
- .
- Anschließend wird dieses Paket automatisch entfernt.
-Tag: role::dummy, suite::iserv:portal
-
-Package: iserv-proxytools-firefox
-Architecture: all
-Depends: iserv-portal, stsbl-iserv-proxyconfig
-Conflicts: stsbl-iserv-proxyconfig (<= 16.09.23.0)
-Breaks: stsbl-iserv-proxyconfig (<= 16.09.23.0)
-Description: IServ Erweiterte Proxykonfiguration: Firefox-Anpassungen (Transitional Package)
- Dieses Paket hängt vom Nachfolger von iserv-proxytools-firefox ab. Dieser wird bei der Installation dieses Paketes automatisch installiert.
- .
- Anschließend wird dieses Paket automatisch entfernt.
-Tag: role::dummy, suite::iserv:portal
