@@ -1,6 +1,0 @@
-// Set the homepage
-// old: defaultPref("browser.startup.homepage", "http://iserv/idesk");
-// new found an wpkg.org/Firefox
-defaultPref("browser.startup.homepage", "data:text/plain,browser.startup.homepage=http://iserv/idesk");
-defaultPref("browser.startup.page", 1);
-
