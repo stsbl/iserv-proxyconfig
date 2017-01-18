@@ -1,14 +1,3 @@
-stsbl-iserv-proxyconfig (17.01.18-0) experimental; urgency=medium
-
-  * Removed install scripts.
-  * Fixed package structure.
-  * Updated debian copyright.
-  * Removed support for deploying proxy on Windows clients.
-  * Cleaned up iservcfg entries.
-  * Cleaned up l10n.
-
- -- Stadtteilschule Blankenese <repository@stsbl.de>  Wed, 18 Jan 2017 22:37:17 +0100
-
 stsbl-iserv-proxyconfig (16.12.09-0) experimental; urgency=medium
 
   [ Felix Jacobi ]
