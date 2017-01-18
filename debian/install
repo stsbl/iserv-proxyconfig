@@ -9,4 +9,3 @@ iservchk/*      usr/share/iserv/iconf/etc/iserv/chk.d
 #sbin/*          usr/sbin
 share/*         usr/share/iserv
 #src/*           usr/share/iserv/src
-debian/changelog DEBIAN
