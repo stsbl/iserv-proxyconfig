@@ -1,6 +1,5 @@
 Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: iserv-proxytools
-Source: https://repository.stsbl.de/doc/mods/stsbl-i https://repository.stsbl.de/doc/mods/stsbl-iserv-proxyconfig.html
 
 Files: *
 Copyright: 2017 Felix Jacobi <felix.jacobi@stsbl.de>
