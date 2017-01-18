@@ -3,5 +3,5 @@ Remove "/etc/samba/netlogon/proxy.reg"
 
 # Remove reg file backups
 Test "Purge proxy.reg backups" 
-  "[ -f '/etc/samba/netlogon/proxy.reg.*' ]"
-  "rm -f /etc/samba/netlogon/proxy.reg.*"
+  '[ ! -f "/etc/samba/netlogon/proxy.reg.*" ]'
+  'rm -f "/etc/samba/netlogon/proxy.reg.*"'
