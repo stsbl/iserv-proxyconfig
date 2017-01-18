@@ -1,7 +1,0 @@
-// Don't check for the default browser
-defaultPref("browser.shell.checkDefaultBrowser", false);
-
-// disable default browser check
-defaultPref("browser.shell.checkDefaultBrowser", false);
-defaultPref("browser.startup.homepage_override.mstone", "ignore");
-

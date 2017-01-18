@@ -1,6 +1,0 @@
-// Hide AdBlock Plus first run page
-pref("extensions.adblockplus.suppress_first_run_page", true);
-
-//Addon Signature Required
-pref("xpinstall.signatures.required", true);
-

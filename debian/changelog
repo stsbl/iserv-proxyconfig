@@ -1,3 +1,16 @@
+stsbl-iserv-proxyconfig (17.01.18-0) experimental; urgency=medium
+
+  [ Felix Jacobi ]
+  * Updated package description.
+  * Dropped support for transitional packages.
+  * Cleaned up l10n.
+  * Cleaned up iservcfg entries.
+  * Removed support for deploying proxy on Windows clients.
+
+  iserv: Die Option zum Verteilen der Proxy-Einstellungen wird nicht mehr weiterentwickelt und wurde entsprechend aus dem Modul entfernt. Wir empfehlen gegebenenfalls das Softwareverteilungspaket von Mozilla Firefox erneut zu installieren, um Überreste zu entfernen.
+
+ -- Stadtteilschule Blankenese <repository@stsbl.de>  Wed, 18 Jan 2017 22:43:56 +0100
+
 stsbl-iserv-proxyconfig (16.12.09-0) experimental; urgency=medium
 
   [ Felix Jacobi ]

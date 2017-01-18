@@ -1,2 +1,0 @@
-Test 'Mark stsbl-iserv-proxyconfig as manual installed' '[ ! $(apt-mark showauto | grep -E "stsbl-iserv-proxyconfig$") ]' 'apt-mark manual stsbl-iserv-proxyconfig'
-Test 'Uninstall transitional package iserv-proxytools' "[[ ! $(dpkg-query --showformat='${Status}\n' --show 'iserv-proxytools' | grep 'install ok installed') ]]" 'aptitude purge --assume-yes iserv-proxytools'
