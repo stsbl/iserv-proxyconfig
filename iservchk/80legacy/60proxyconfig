@@ -3,7 +3,7 @@ Remove "/etc/samba/netlogon/proxy.reg"
 
 # Remove reg file backups
 Test "Purge proxy.reg backups" 
-  '[ ! -f "/etc/samba/netlogon/proxy.reg.*" ]'
+  '! ls /etc/samba/netlogon/proxy.reg.* &> /dev/null' 
   'rm -f "/etc/samba/netlogon/proxy.reg.*"'
 
 Test "Reinstall winst-mozilla-firefox"
