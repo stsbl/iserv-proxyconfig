@@ -1,3 +1,16 @@
+stsbl-iserv-proxyconfig (17.03.09-0) experimental; urgency=medium
+
+  [ Felix Jacobi ]
+  * Improved syntax of squid config.
+  * Added support for bypassing the upstream proxy for selected domains.
+  * Updated l10n.
+  * Readded missing iservchk script.
+  * Fixed removal of proxy.reg backups.
+
+  iserv: Es können nun Domains eingestellt werden, die den eingestellten Eltern-Proxy umgehen sollen.
+
+ -- Stadtteilschule Blankenese <repository@stsbl.de>  Thu, 09 Mar 2017 23:12:52 +0100
+
 stsbl-iserv-proxyconfig (17.01.18-1) experimental; urgency=medium
 
   [ Felix Jacobi ]
