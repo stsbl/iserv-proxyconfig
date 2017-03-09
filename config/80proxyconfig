@@ -1,27 +1,34 @@
 
 ProxyDMZMode:
-name             Enable DMZ mode (Hamburg)
-description      The Firewall of the IServ will configured to allow access to the proxy from another subnets.\nEnable this to allow the access to the Proxy if the IServ is homed in a DMZ of a Time for kids-Schulrouter.
-group            Module: Proxy Configuration
-type             bool
-default          false
+name            Enable DMZ mode (Hamburg)
+description     The Firewall of the IServ will configured to allow access to the proxy from another subnets.\nEnable this to allow the access to the Proxy if the IServ is homed in a DMZ of a Time for kids-Schulrouter.
+group           Module: Proxy Configuration
+type            bool
+default         false
 
 ProxyCacheMgr:
-name             Squid Webmaster
-description      E-Mail Address which is shown as Cache Administrator on Squid error pages
-group            Module: Proxy Configuration
-type             string
-default          webmaster
+name            Squid Webmaster
+description     E-Mail Address which is shown as Cache Administrator on Squid error pages
+group           Module: Proxy Configuration
+type            string
+default         webmaster
 
 ProxyCachePeer:
-name             Cache Peer
-description      Proxy server to which all requests are redirected by the IServ Proxy.\nProxy server in format hostname:port
-group            Module: Proxy Configuration
-type             string
+name            Cache Peer
+description     Proxy server to which all requests are redirected by the IServ Proxy.\nProxy server in format hostname:port
+group           Module: Proxy Configuration
+type            string
 
 TrustedChildProxies:
-name             Trusted Child Proxies
-description      Child Proxies where the field 'X-Forwarded-For' is trusted. It will used to detect the origin of a request.
-group            Module: Proxy Configuration
-type             array
-default          ()
+name            Trusted Child Proxies
+description     Child Proxies where the field 'X-Forwarded-For' is trusted. It will used to detect the origin of a request.
+group           Module: Proxy Configuration
+type            array
+default         ()
+
+ProxyAlwaysDirect:
+name            Domains which should bypass the cache peer
+description     Enter a list of domains which should bypass the configured upstream proxy
+group           Module: Proxy Configuration
+type            array
+default         ()
