@@ -5,3 +5,7 @@ Remove "/etc/samba/netlogon/proxy.reg"
 Test "Purge proxy.reg backups" 
   '[ ! -f "/etc/samba/netlogon/proxy.reg.*" ]'
   'rm -f "/etc/samba/netlogon/proxy.reg.*"'
+
+Test "Reinstall winst-mozilla-firefox"
+  'grep ^80legacy/60proxyconfig$ /var/lib/iserv/config/update.log'
+  "if [[ $(dpkg-query --showformat='${Status}\n' --show 'winst-mozilla-firefox' 2> /dev/null | grep 'install ok installed') ]]; then /usr/lib/iserv/aptitude_auto reinstall winst-mozilla-firefox && echo 80legacy/60proxyconfig >> /var/lib/iserv/config/update.log; else echo 80legacy/60proxyconfig >> /var/lib/iserv/config/update.log; fi"
