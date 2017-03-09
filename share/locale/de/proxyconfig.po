@@ -23,4 +23,10 @@ msgid "Trusted Child Proxies"
 msgstr "Vertrauenswürdige Kinderproxys"
 
 msgid "Child Proxies where the field 'X-Forwarded-For' is trusted. It will used to detect the origin of a request."
-msgstr "Kinderproxys, wo das Feld 'X-Forwarded-For' vertrauenswürdig ist. Es wird genutzt um die Herkunft einer Anfrage zu bestimmen.'"
+msgstr "Kinderproxys, wo das Feld 'X-Forwarded-For' vertrauenswürdig ist. Es wird genutzt um die Herkunft einer Anfrage zu bestimmen."
+
+msgid "Domains which should bypass the cache peer"
+msgstr "Domains, die den Eltern-Proxy umgehen sollen"
+
+msgid "Enter a list of domains which should bypass the configured upstream proxy"
+msgstr "Geben Sie eine Liste von Domains, welche den eingestellten Eltern-Proxy umgehen sollen."

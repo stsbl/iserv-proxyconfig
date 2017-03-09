@@ -28,7 +28,7 @@ default         ()
 
 ProxyAlwaysDirect:
 name            Domains which should bypass the cache peer
-description     Enter a list of domains which should bypass the configured upstream proxy
+description     Enter a list of domains which should bypass the configured upstream proxy.
 group           Module: Proxy Configuration
 type            array
 default         ()
