@@ -28,5 +28,5 @@ msgstr "Kinderproxys, wo das Feld 'X-Forwarded-For' vertrauenswürdig ist. Es wi
 msgid "Domains which should bypass the cache peer"
 msgstr "Domains, die den Eltern-Proxy umgehen sollen"
 
-msgid "Enter a list of domains which should bypass the configured upstream proxy"
+msgid "Enter a list of domains which should bypass the configured upstream proxy."
 msgstr "Geben Sie eine Liste von Domains, welche den eingestellten Eltern-Proxy umgehen sollen."
