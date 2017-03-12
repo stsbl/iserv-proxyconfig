@@ -1,3 +1,16 @@
+stsbl-iserv-proxyconfig (17.03.12-0) experimental; urgency=medium
+
+  [ Felix Jacobi ]
+  * Fixed legacy script.
+  * Fixed l10n.
+  * Squid config improvements:
+    - Redirect Windows updates to the Windows update proxy instead of a configured peer.
+    - Include subdomains for domains excluded from the cache peer.
+
+  iserv: Ein eingestellter Eltern-Proxy behindert nun nicht mehr die Zwischenspeicherung von Windows Updates durch den Windows Update-Proxy.
+ 
+ -- Stadtteilschule Blankenese <repository@stsbl.de>  Sun, 12 Mar 2017 01:00:33 +0100
+
 stsbl-iserv-proxyconfig (17.03.09-0) experimental; urgency=medium
 
   [ Felix Jacobi ]
