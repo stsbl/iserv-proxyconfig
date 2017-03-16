@@ -19,6 +19,7 @@ then
   echo "  acl peer_black_list dstdomain .windowsupdate.com"
   echo
   echo "# Send windows update requests still via nginx"
+  echo "  cache_peer_access peer deny peer_black_list"
   echo "  cache_peer_access peer allow !peer_black_list"
   echo
   echo "# Allow redirection of CONNECT requests to the cache peer"
