@@ -5,6 +5,7 @@ stsbl-iserv-proxyconfig (17.03.16-0) experimental; urgency=medium
   * Fixed race condition between cache peer and Windows update proxy.
     Thanks to Stephan Seidel for providing helpful advices!
   * Updated l10n.
+  * Fixed l10n.
 
   iserv: Über die Systemkonfiguration kann nun bei Bedarf die Cache-Größe des Squid-Proxys verändert werden. Beachten Sie in der dazugehörigen Einstellung bitte die Hinweise bezüglich der Arbeitsspeichernutzung, bevor Sie die Größe ändern. 
 
