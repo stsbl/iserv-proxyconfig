@@ -1,0 +1,11 @@
+#!/bin/bash
+
+. /usr/lib/iserv/cfg
+
+if [ "$ProxyCacheSize" != "0" ]
+then
+  sed "s/cache_dir ufs \/var\/spool\/squid3 1000/cache_dir ufs \/var\/spool\/squid3 $ProxyCacheSize/g"
+else
+  # pass
+  cat -
+fi
