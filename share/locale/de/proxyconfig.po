@@ -35,5 +35,5 @@ msgid "Maxium size of the Squid cache"
 msgstr "Maximale Größe des Squid-Caches"
 
 msgid "Use this settings to customize the size of the proxy cache if you want to use another value than the default one (10 Gigabyte).\\nIt can be used to extend the size or to reduce them.\\nTo use the default setting of the current IServ version set this value to 0.\\nNote that Squid requires up to 20 Megabyte of additional RAM per Gigabyte."
-msgstr "Benutzen Sie diese Einstellung, um die Größe des Proxy-Caches anzupassen, wenn Sie einen anderen Wert als den Standardmäßigen verwenden wollen (10 Gigabyte).\\nDies kann benutzt werden, um die Größe zu erweitern oder zu verringern\\nUm die Standardeinstellung der aktuellen IServ-Version zu nutzen, setzen Sie diesen Wert auf 0.\\nBeachten Sie, dass Squid bis zu 20 Megabyte zusätzlichen RAM pro Gigabyte benötigt."
+msgstr "Benutzen Sie diese Einstellung, um die Größe des Proxy-Caches anzupassen, wenn Sie einen anderen Wert als den Standardmäßigen verwenden wollen (10 Gigabyte).\\nDies kann benutzt werden, um die Größe zu erweitern oder zu verringern.\\nUm die Standardeinstellung der aktuellen IServ-Version zu nutzen, setzen Sie diesen Wert auf 0.\\nBeachten Sie, dass Squid bis zu 20 Megabyte zusätzlichen RAM pro Gigabyte benötigt."
 
