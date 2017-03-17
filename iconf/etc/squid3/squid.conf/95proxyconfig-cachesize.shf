@@ -4,7 +4,9 @@
 
 if [ "$ProxyCacheSize" != "0" ]
 then
-  sed "s/cache_dir ufs \/var\/spool\/squid3 1000/cache_dir ufs \/var\/spool\/squid3 $ProxyCacheSize/g"
+  sed "s/cache_dir ufs \/var\/spool\/squid3 $( LC_ALL=C df -m /var/spool/squid3 |
+      awk '$2 ~ /^[0-9]+$/ { x=int(.01*$2); max=10000; print (x>max? max: x); }'
+        )/cache_dir ufs \/var\/spool\/squid3 $ProxyCacheSize/g"
 else
   # pass
   cat -
