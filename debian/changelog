@@ -1,3 +1,14 @@
+stsbl-iserv-proxyconfig (17.03.17-0) experimental; urgency=medium
+
+  [ Felix Jacobi ]
+  * Fixed l10n.
+  * Improved acl which allows access to cache peer:
+    - Ensure that redirections of Windows update requests are blocked.
+    - Allow explicitly the access of other requests.
+  * Fixed shell filter for setting the cache size.
+
+ -- Stadtteilschule Blankenese <repository@stsbl.de>  Fri, 17 Mar 2017 14:31:38 +0100
+
 stsbl-iserv-proxyconfig (17.03.16-0) experimental; urgency=medium
 
   [ Felix Jacobi ]
