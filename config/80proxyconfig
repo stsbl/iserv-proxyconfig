@@ -35,7 +35,7 @@ default         ()
 
 ProxyCacheSize:
 name            Maxium size of the Squid cache
-description     Use this settings to customize the size of the proxy cache if you want to use another value than the default one (10 Gigabyte).\nIt can be used to extend the size or to reduce them.\nTo use the default setting of the current IServ version set this value to 0.\nNote that Squid requires up to 20 Megabyte of additional RAM per Gigabyte.
+description     Use this settings to customize the size of the proxy cache if you want to use another value than the default one (automatically determined via the disk size).\nIt can be used to extend the size or to reduce them.\nTo use the default setting of the current IServ version set this value to 0.\nNote that Squid requires up to 20 Megabyte of additional RAM per Gigabyte.
 group           Module: Proxy Configuration
 type            int:MB
 default         0
