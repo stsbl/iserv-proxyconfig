@@ -1,3 +1,11 @@
+stsbl-iserv-proxyconfig (17.05.13-0) experimental; urgency=medium
+
+  [ Felix Jacobi ]
+  * Updated l10n.
+  * Updated obsolete cache size advice.
+
+ -- Stadtteilschule Blankenese <repository@stsbl.de>  Sat, 13 May 2017 15:08:48 +0200
+
 stsbl-iserv-proxyconfig (17.03.17-0) experimental; urgency=medium
 
   [ Felix Jacobi ]
