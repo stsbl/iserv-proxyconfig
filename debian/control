@@ -11,11 +11,15 @@ Architecture: all
 Depends: iserv-portal
 Provides: iserv-proxytools-firefox, iserv-proxytools
 Conflicts: iserv-proxytools (<= 16.06.10-0), iserv-proxytools-firefox (<= 16.06.09-0)
-Breaks: iserv-proxytools (<= 16.06.10-0), iserv-proxytools-firefox (<= 16.06.09-0)
 Description: Proxykonfigurations-Modul für IServ
- Dieses Modul eröffnet zusätzliche Eingriffsmöglichkeiten in die Proxykonfiguration für das Schulnetzwerk.
+ Dieses Modul eröffnet zusätzliche Eingriffsmöglichkeiten in die
+ Proxykonfiguration für das Schulnetzwerk.
  .
- Für den IServ Proxy ein Elternproxy eingestellt werden, wodurch sich ein sogenannter Upstream-Proxy problemlos in die IServ-Umgebung einfügen lässt. 
+ Für den IServ Proxy ein Elternproxy eingestellt werden, wodurch sich ein
+ sogenannter Upstream-Proxy problemlos in die IServ-Umgebung einfügen
+ lässt. 
  .
- Außerdem enthält das Modul einen DMZ-Modus, der es erlaubt, den IServ-Proxy in Kombination mit dem Time-for-kids-Schulrouter an Hamburger Schulen zu verwenden.
+ Außerdem enthält das Modul einen DMZ-Modus, der es erlaubt, den
+ IServ-Proxy in Kombination mit dem Time-for-kids-Schulrouter an
+ Hamburger Schulen zu verwenden.
 Tag: role::plugin, suite::iserv:portal
