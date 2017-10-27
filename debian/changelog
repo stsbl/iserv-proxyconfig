@@ -1,3 +1,10 @@
+stsbl-iserv-proxyconfig (17.10.28-1) experimental; urgency=medium
+
+  * Updated build deps and rules.
+  * Adapted module for Debian Stretch
+
+ -- Felix Jacobi <felix.jacobi@stsbl.de>  Sat, 28 Oct 2017 00:27:27 +0200
+
 stsbl-iserv-proxyconfig (17.05.13-0) experimental; urgency=medium
 
   [ Felix Jacobi ]
@@ -26,7 +33,10 @@ stsbl-iserv-proxyconfig (17.03.16-0) experimental; urgency=medium
   * Updated l10n.
   * Fixed l10n.
 
-  iserv: Über die Systemkonfiguration kann nun bei Bedarf die Cache-Größe des Squid-Proxys verändert werden. Beachten Sie in der dazugehörigen Einstellung bitte die Hinweise bezüglich der Arbeitsspeichernutzung, bevor Sie die Größe ändern. 
+  iserv: Über die Systemkonfiguration kann nun bei Bedarf die Cache-Größe des
+    Squid-Proxys verändert werden. Beachten Sie in der dazugehörigen
+    Einstellung bitte die Hinweise bezüglich der Arbeitsspeichernutzung,
+    bevor Sie die Größe ändern.
 
  -- Stadtteilschule Blankenese <repository@stsbl.de>  Thu, 16 Mar 2017 21:16:59 +0100
 
@@ -39,8 +49,9 @@ stsbl-iserv-proxyconfig (17.03.12-0) experimental; urgency=medium
     - Redirect Windows updates to the Windows update proxy instead of a configured peer.
     - Include subdomains for domains excluded from the cache peer.
 
-  iserv: Ein eingestellter Eltern-Proxy behindert nun nicht mehr die Zwischenspeicherung von Windows Updates durch den Windows Update-Proxy.
- 
+  iserv: Ein eingestellter Eltern-Proxy behindert nun nicht mehr die
+    Zwischenspeicherung von Windows Updates durch den Windows Update-Proxy.
+
  -- Stadtteilschule Blankenese <repository@stsbl.de>  Sun, 12 Mar 2017 01:00:33 +0100
 
 stsbl-iserv-proxyconfig (17.03.09-0) experimental; urgency=medium
@@ -52,7 +63,8 @@ stsbl-iserv-proxyconfig (17.03.09-0) experimental; urgency=medium
   * Readded missing iservchk script.
   * Fixed removal of proxy.reg backups.
 
-  iserv: Es können nun Domains eingestellt werden, die den eingestellten Eltern-Proxy umgehen sollen.
+  iserv: Es können nun Domains eingestellt werden, die den
+    eingestellten Eltern-Proxy umgehen sollen.
 
  -- Stadtteilschule Blankenese <repository@stsbl.de>  Thu, 09 Mar 2017 23:12:52 +0100
 
@@ -74,7 +86,10 @@ stsbl-iserv-proxyconfig (17.01.18-0) experimental; urgency=medium
   * Cleaned up iservcfg entries.
   * Removed support for deploying proxy on Windows clients.
 
-  iserv: Die Option zum Verteilen der Proxy-Einstellungen wird nicht mehr weiterentwickelt und wurde entsprechend aus dem Modul entfernt. Wir empfehlen gegebenenfalls das Softwareverteilungspaket von Mozilla Firefox erneut zu installieren, um Überreste zu entfernen.
+  iserv: Die Option zum Verteilen der Proxy-Einstellungen wird nicht mehr
+    weiterentwickelt und wurde entsprechend aus dem Modul entfernt.
+    Wir empfehlen gegebenenfalls das Softwareverteilungspaket von Mozilla
+    Firefox erneut zu installieren, um Überreste zu entfernen.
 
  -- Stadtteilschule Blankenese <repository@stsbl.de>  Wed, 18 Jan 2017 22:43:56 +0100
 
@@ -85,14 +100,19 @@ stsbl-iserv-proxyconfig (16.12.09-0) experimental; urgency=medium
 
   [ Stadtteilschule Blankenese ]
 
-  iserv: Die Firefox-Konfigurationsdatei entspricht nun wieder der, die vom Softwareverteilungspaket mitgelifiert wird, um sie zu verteilen, installiert Firefox sich auf allen betroffenen Rechnern neu.
+  iserv: Die Firefox-Konfigurationsdatei entspricht nun wieder der,
+    die vom Softwareverteilungspaket mitgelifiert wird, um sie zu
+    verteilen, installiert Firefox sich auf allen betroffenen
+    Rechnern neu.
 
  -- Stadtteilschule Blankenese <repository@stsbl.de>  Fri, 09 Dec 2016 19:10:33 +0100
 
 stsbl-iserv-proxyconfig (16.10.10-0) experimental; urgency=low
 
   [ Felix Jacobi ]
-  * Disabled message "dpkg-query: Kein Paket gefunden, das auf winst-mozilla-firefox passt" during run of iservchk when winst-mozilla-firefox ist not installed.
+  * Disabled message "dpkg-query: Kein Paket gefunden, das auf
+    winst-mozilla-firefox passt" during run of iservchk when 
+    winst-mozilla-firefox ist not installed.
 
   [ Felix Jacobi ]
 
