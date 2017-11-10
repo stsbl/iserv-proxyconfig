@@ -1,21 +1,6 @@
 msgid "Module: Proxy Configuration"
 msgstr "Modul: Proxykonfiguration"
 
-msgid "Enable DMZ mode (Hamburg)"
-msgstr "DMZ-Modus aktivieren (Hamburg)"
-
-msgid ""
-"The Firewall of the IServ will configured to allow access to the "
-"proxy from another subnets.\\nEnable this to allow the access to "
-"the Proxy if the IServ is homed in a DMZ of a Time for "
-"kids-Schulrouter."
-msgstr ""
-"Die Firewall von IServ wird so konfiguriert, dass sie den "
-"Zugriff auf den Proxy aus anderen Subnetzen erlaubt.\\nDiese "
-"Option aktivieren, wenn der Zugriff auf den Proxy eines IServs "
-"in einer DMZ des Time for kids-Schulrouters aus dem LAN heraus "
-"möglich sein soll."
-
 msgid "Squid Webmaster"
 msgstr "Squid-Webmaster"
 
