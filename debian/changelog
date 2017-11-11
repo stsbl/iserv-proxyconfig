@@ -1,3 +1,14 @@
+stsbl-iserv-proxyconfig (17.11.11-1) experimental; urgency=medium
+
+  * Removed support for DMZ mode as it is no longer possible
+    with iserv-server-ferm
+
+  iserv: Der DMZ-Modus ist nicht mit den Firewall-Änderungen des neusten IServ
+    Updates kompatibel und wird daher in Zukunft nicht mehr durch das Modul
+    unterstützt.
+
+ -- Felix Jacobi <felix.jacobi@stsbl.de>  Sat, 11 Nov 2017 01:04:29 +0100
+
 stsbl-iserv-proxyconfig (17.10.28-3) experimental; urgency=medium
 
   * Updated description and deps
