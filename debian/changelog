@@ -1,3 +1,14 @@
+stsbl-iserv-proxyconfig (19.10.21-1) stable; urgency=medium
+
+  * Added license
+  * Updated copyright
+  * Updated packaging
+  * Updated build rules for webpack support
+  * Updated package description
+  * Updated translations
+
+ -- Felix Jacobi <Felix@jacobi-hamburg.net>  Mon, 21 Oct 2019 22:55:37 +0200
+
 stsbl-iserv-proxyconfig (17.11.11-1) experimental; urgency=medium
 
   * Removed support for DMZ mode as it is no longer possible
