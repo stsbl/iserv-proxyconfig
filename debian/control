@@ -1,33 +1,27 @@
 Source: stsbl-iserv-proxyconfig
 Section: misc
-Priority: extra
+Priority: optional
 Maintainer: Stadtteilschule Blankenese <repository@stsbl.de>
-Build-Depends: debhelper (>=9)
+Build-Depends: debhelper (>= 10)
 Build-Depends-Indep: iserv3-dev
-Standards-Version: 4.1.3
-Homepage: https://repository.stsbl.de/doc/mods/stsbl-iserv-proxyconfig.html
+Standards-Version: 4.4.1
 
 Package: stsbl-iserv-proxyconfig
 Architecture: all
 Depends: ${misc:Depends},
   ${perl:Depends},
   iserv-portal,
-Provides:
-  iserv-proxytools,
-  iserv-proxytools-firefox,
-Conflicts:
-  iserv-proxytools (<= 16.06.10-0),
-  iserv-proxytools-firefox (<= 16.06.09-0),
 Xb-Private-IServ-Revision: ${iserv:Revision}
 Description: Proxykonfigurations-Modul für IServ
  Dieses Modul eröffnet zusätzliche Eingriffsmöglichkeiten in die
  Proxykonfiguration für das Schulnetzwerk.
  .
- Für den IServ Proxy ein Elternproxy eingestellt werden, wodurch sich ein
+ Für den IServ-Proxy kann ein Elternproxy eingestellt werden, wodurch sich ein
  sogenannter Upstream-Proxy problemlos in die IServ-Umgebung einfügen
- lässt. 
+ lässt. Außerdem können vertrauenswürdige Kinderproxys konfiguriert werden,
+ bei denen IServ das Feld "X-Forwarded-For" aus Anfragen ungefiltert verarbeitet.
  .
- Außerdem enthält das Modul einen DMZ-Modus, der es erlaubt, den
- IServ-Proxy in Kombination mit dem Time-for-kids-Schulrouter an
- Hamburger Schulen zu verwenden.
+ Außerdem kann die Größe des Proxy-Caches konfiguriert werden, um beispielweise
+ größere Anfragen besser zwischenspeichern zu können und eine benutzerdefinierte
+ Kontakt-E-Mail-Adresse für den Administrator angegeben werden.
 Tag: role::plugin, suite::iserv:portal
