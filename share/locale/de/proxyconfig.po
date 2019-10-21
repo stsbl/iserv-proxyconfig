@@ -23,13 +23,13 @@ msgstr ""
 "hostname:port"
 
 msgid "Trusted Child Proxies"
-msgstr "Vertrauenswürdige Kinderproxys"
+msgstr "Vertrauenswürdige Kinder-Proxys"
 
 msgid ""
 "Child Proxies where the field 'X-Forwarded-For' is "
 "trusted. It will used to detect the origin of a request."
 msgstr ""
-"Kinderproxys, wo das Feld 'X-Forwarded-For' vertrauenswürdig "
+"Kinder-Proxys, wo das Feld 'X-Forwarded-For' vertrauenswürdig "
 "ist. Es wird genutzt um die Herkunft einer Anfrage zu "
 "bestimmen."
 
