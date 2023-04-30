@@ -1,0 +1,68 @@
+# TRANSLATION CATALOG OF STSBL-ISERV-PROXYCONFIG.
+# Copyright (C) 2023 IServ GmbH
+# This file is distributed under the same license as the stsbl-iserv-proxyconfig package.
+# IServ GmbH <info@iserv.eu>, 2023.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: stsbl-iserv-proxyconfig\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: config/80proxyconfig
+msgid "Cache Peer"
+msgstr ""
+
+#: config/80proxyconfig
+msgid ""
+"Child Proxies where the field 'X-Forwarded-For' is trusted. It will used to "
+"detect the origin of a request."
+msgstr ""
+
+#: config/80proxyconfig
+msgid "Domains which should bypass the cache peer"
+msgstr ""
+
+#: config/80proxyconfig
+msgid ""
+"E-Mail Address which is shown as Cache Administrator on Squid error pages"
+msgstr ""
+
+#: config/80proxyconfig
+msgid ""
+"Enter a list of domains which should bypass the configured upstream proxy."
+msgstr ""
+
+#: config/80proxyconfig
+msgid "Maxium size of the Squid cache"
+msgstr ""
+
+#: config/80proxyconfig
+msgid "Module: Proxy Configuration"
+msgstr ""
+
+#: config/80proxyconfig
+msgid ""
+"Proxy server to which all requests are redirected by the IServ Proxy."
+"\\nProxy server in format hostname:port"
+msgstr ""
+
+#: config/80proxyconfig
+msgid "Squid Webmaster"
+msgstr ""
+
+#: config/80proxyconfig
+msgid "Trusted Child Proxies"
+msgstr ""
+
+#: config/80proxyconfig
+msgid ""
+"Use this settings to customize the size of the proxy cache if you want to "
+"use another value than the default one (automatically determined via the "
+"disk size).\\nIt can be used to extend the size or to reduce them.\\nTo use "
+"the default setting of the current IServ version set this value to 0.\\nNote "
+"that Squid requires up to 20 Megabyte of additional RAM per Gigabyte."
+msgstr ""
